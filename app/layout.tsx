@@ -35,6 +35,8 @@ export default function RootLayout({
             <Link  className=" bg-emerald-300 m-14 p-4 text-xl cursor-pointe hover:bg-emerald-400" href="/">Go To flex</Link>
             <Link  className=" bg-emerald-300 m-14 p-4 text-xl cursor-pointe hover:bg-emerald-400" href="/drid" >Go To Drid</Link>
             <Link  className=" bg-emerald-300 m-14 p-4 text-xl cursor-pointe hover:bg-emerald-400" href="/test1" >Go To test 1</Link>
+            <Link  className=" bg-emerald-300 m-14 p-4 text-xl cursor-pointe hover:bg-emerald-400" href="/clind" >Go To clind</Link>
+            <Link  className=" bg-emerald-300 m-14 p-4 text-xl cursor-pointe hover:bg-emerald-400" href="/post" >Go To posts</Link>
           </nav>
         {children}
         </div>
