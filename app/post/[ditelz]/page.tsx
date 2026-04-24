@@ -4,13 +4,14 @@ type typ = {
   params: Promise<{ ditelz: string }>;
 };
 
+
 export default async function name({params}:typ) {
     const par = await params;
 
    await new Promise<void>((resolve) => {
         setTimeout(()=>{
             resolve()
-        },5000)
+        },1500)
     })
     
     type postType =  {
@@ -24,13 +25,8 @@ export default async function name({params}:typ) {
             revalidate:120
         }
     })
-
     
     const resolt:postType = await post.json()
-
-
-
-
     return(
         <div style={{ padding:`7.5px`, margin:`15px`}} className="bg-amber-500 hover:bg-amber-300 transition-all cursor-pointer">
             <hr/>
