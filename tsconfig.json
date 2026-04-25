@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "app/drid/[title]/page.tsx"  ],
+, "app/drid/[title]/page.tsx", "app/post/[ditelz]/page.jsx", "app/post/[ditelz]/page.jsx"  ],
   "exclude": ["node_modules"]
 }
